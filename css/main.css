@@ -14,3 +14,33 @@ body{
 header{
   background-color: orange;
 }
+
+.inset{
+  float: left;
+  width: 22%;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
+.right{
+  float: right;
+  width: 22%;
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
+
+.p2{
+  clear: both;
+}
+
+.cereals{
+  background-color: orange;
+}
+
+figcaption{
+  background-color: orange;
+}
+
+footer{
+  background-color: orange;
+}
