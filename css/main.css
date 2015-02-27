@@ -1,6 +1,7 @@
 html{
   background-color: #fff;
   box-sizing: border-box;
+  margin: 0;
 }
 
 *, *::before, *::after{
@@ -11,7 +12,7 @@ body{
   margin: 0;
 }
 
-header {
+header{
   background-color: orange;
   margin: 0;
   text-align: center;
@@ -22,6 +23,7 @@ header {
 
 h1{
   text-align: center;
+  padding: 1em 0em 0em 0em;
 }
 
 nav a{
@@ -33,6 +35,10 @@ nav a{
   text-decoration: none;
   color: #fff;
   background-color: orange;
+}
+
+a:hover{
+  color: red;
 }
 
 nav li {
@@ -79,6 +85,11 @@ div{
   background-color: orange;
   clear: both;
   overflow: hidden;
+  margin: 0;
+}
+
+figure{
+  margin: 0;
 }
 
 .cereals{
@@ -86,13 +97,45 @@ div{
   color: #fff;
 }
 
-figcaption{
-  color: #fff;
-  text-align: center;
-}
-
 .corn{
   margin: 0;
+  padding: 0;
+  float: left;
+  width: 100%;
+}
+
+.figcorn{
+  color: #fff;
+  text-align: center;
+  padding: 1em 0em 1em 0em;
+}
+
+.rice{
+  float: left;
+  width: 50%;
+  clear: left;
+  display: inline-block;
+  margin: 0;
+
+}
+
+.figrice{
+  clear: left;
+  color: #fff;
+  padding: 1em 0em 1em 0em;
+}
+
+.oats{
+  float: right;
+  width: 50%;
+  display: inline-block;
+  margin: 0;
+}
+
+.figoats{
+  clear: right;
+  padding: 1em 0em 1em 0em;
+  color: #fff;
 }
 
 ul img{
@@ -103,8 +146,8 @@ ul img{
   clear: left;
 }
 
-ul p{
-  text-decoration: none;
+ul{
+  list-style-type: none;
 }
 
 .peanuts{
@@ -123,4 +166,6 @@ footer{
   background-color: orange;
   color: #fff;
   clear: both;
+  text-align: center;
+  padding: 1em 1em 1em 1em;
 }
