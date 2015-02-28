@@ -24,6 +24,24 @@ header{
 h1{
   text-align: center;
   padding: 1em 0em 0em 0em;
+  display: inline-block;
+  margin: 0;
+}
+
+.graphic{
+  float: left;
+  width: 10%;
+  margin: 0px;
+}
+
+.graphic2{
+  float: right;
+  width: 10%;
+  margin: 0;
+}
+
+nav{
+  clear: both;
 }
 
 nav a{
@@ -104,38 +122,35 @@ figure{
   width: 100%;
 }
 
-.figcorn{
-  color: #fff;
+.rice2{
+  float: left;
+  display: inline-block;
+  margin:0;
+  width: 50%;
+  padding: 0;
   text-align: center;
-  padding: 1em 0em 1em 0em;
 }
 
 .rice{
-  float: left;
-  width: 50%;
-  clear: left;
-  display: inline-block;
-  margin: 0;
-
+  width: 100%;
 }
 
-.figrice{
-  clear: left;
-  color: #fff;
-  padding: 1em 0em 1em 0em;
-}
-
-.oats{
+.oats2{
   float: right;
   width: 50%;
   display: inline-block;
   margin: 0;
+  padding: 0;
 }
 
-.figoats{
-  clear: right;
-  padding: 1em 0em 1em 0em;
+.oats{
+  width: 100%;
+}
+
+figcaption{
+  text-align: center;
   color: #fff;
+  padding: 0.5em 0em 1em 0em;
 }
 
 ul img{
