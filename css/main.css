@@ -13,7 +13,7 @@ body{
 }
 
 header{
-  background-color: orange;
+  background-color: #cd5b34;
   margin: 0;
   text-align: center;
   text-decoration: none;
@@ -62,7 +62,7 @@ nav a{
   padding: 0.5em 0.5em 0.5em 0.5em;
   text-decoration: none;
   color: #fff;
-  background-color: orange;
+  background-color: #cd5b34;
 }
 
 a:hover{
@@ -115,7 +115,7 @@ h2{
 }
 
 div{
-  background-color: orange;
+  background-color: #d98156;
   clear: both;
   overflow: hidden;
   margin: 0;
@@ -201,21 +201,21 @@ em{
   font-weight: bold;
 }
 
-.peanut-text{
+.peanuts2{
   float: left;
-  display: inline block;
+  display: inline-block;
   margin-top: 1em;
 }
 
-.bean-text{
+.beans2{
   float: left;
-  display: inline block;
+  display: inline-block;
   margin-top: 1em;
 }
 
-.lentil-text{
+.lentils2{
   float: left;
-  display: inline block;
+  display: inline-block;
   margin-top: 1em;
 }
 
@@ -225,7 +225,7 @@ dd{
 }
 
 footer{
-  background-color: orange;
+  background-color: #cd5b34;
   color: #fff;
   clear: both;
   text-align: center;
